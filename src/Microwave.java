@@ -1,5 +1,6 @@
 public class Microwave 
 {   //attrubutes
+    @SuppressWarnings("unused")
     private String brand;
     private int maxPower;
 

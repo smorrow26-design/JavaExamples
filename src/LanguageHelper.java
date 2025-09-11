@@ -7,7 +7,14 @@ public class LanguageHelper
     }
     public static String salutation()
     {
-        System.out.println("Ciao");
         return "Good Morning"; 
     } 
+    public static boolean happy()
+    {
+        return true;
+    }
+    public static String german(String word)
+    {
+        return "Der " + word;
+    }
 }
