@@ -1,7 +1,11 @@
+
 public class Main
 {
-    public static void main (String[] args)
+    public static void main(String[] args)
     {
-        System.out.println("Hello World");
+     Microwave soupSpecialist = new Microwave("Lockheed Martin", 1200);
+     soupSpecialist.cook30();
+     LanguageHelper.greet();
+     System.out.println(LanguageHelper.salutation());
     }
 }
