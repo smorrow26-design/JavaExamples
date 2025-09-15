@@ -1,14 +1,18 @@
 
 public class Main
-{
+{        
+    public static int myRandom(int a, int b)
+    {
+        int randInt = (int) (Math.random() * (b - a + 1) + a);
+        return randInt;
+    }
+        public static int mySmallRandom(int a, int b)
+    {
+        return (int) (Math.random() * (b - a - 1) + (a + 1));
+    }
     public static void main(String[] args)
     {
-     Microwave soupSpecialist = new Microwave("Lockheed Martin", 1200);
-     Microwave catCooker = new Microwave("Porsche", 800);
-     System.out.println(soupSpecialist);
-     System.out.println(catCooker);
-     
-
+       System.out.println(mySmallRandom(2, 5));
 
     }
 }
